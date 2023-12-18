@@ -5,3 +5,5 @@ tiktoken
 PyPDF2
 Chromadb
 python-docx
+docx
+sqlite3
