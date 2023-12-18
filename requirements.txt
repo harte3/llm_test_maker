@@ -1,9 +1,8 @@
-pip
 streamlit
 langchain
 openai
 tiktoken
 PyPDF2
+sentence-transformers
 Chromadb
 python-docx
-sqlite3
