@@ -1,3 +1,4 @@
 # Quizzy
 A streamlit app proof-of-concept for a multiple question test generator using OpenAI and Langchain. 
-For demoing purposes, you can try the app out here: [Quizzy](https://quizzy.streamlit.app/)
+
+If you want to try it out, you can demo the app out here: [Quizzy](https://quizzy.streamlit.app/)
