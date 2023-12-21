@@ -250,7 +250,7 @@ def main():
             submit = st.button("Generate Quiz!")
 
             #Create embeddings
-            embeddings = OpenAIEmbeddings(model_name="ada", openai_api_key=st.session_state["OpenAI_API_Key"])
+            embeddings = OpenAIEmbeddings(openai_api_key=st.session_state["OpenAI_API_Key"])
             # embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
             #Store embeddings in a vectorstore
@@ -362,7 +362,7 @@ def main():
             submit = st.button("Generate Quiz!")
 
             #Create embeddings
-            embeddings = OpenAIEmbeddings(model_name="ada", openai_api_key=st.session_state["OpenAI_API_Key"])
+            embeddings = OpenAIEmbeddings(openai_api_key=st.session_state["OpenAI_API_Key"])
             # embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
             #Store embeddings in a vectorstore
