@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import numpy as np
 from langchain.chains.question_answering import load_qa_chain
-from langchain.llms import OpenAI
+from langchain-community.llms import OpenAI
 from langchain.chains import RetrievalQA
 from langchain.callbacks import get_openai_callback
 from langchain.vectorstores import Chroma
